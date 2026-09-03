@@ -1,9 +1,8 @@
 print("Hello In The Programe")
 
 name = input("May you enter your name pls: \n")
-age = input("May you enter your age pls: \n")
+age = int(input("May you enter your age pls: \n"))
 
-age = int(age)
 
 match age:
     case age if age < 18:
